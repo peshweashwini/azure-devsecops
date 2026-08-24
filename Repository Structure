@@ -1,0 +1,59 @@
+azure-devsecops-poc/
+│
+├── README.md
+├── .gitignore
+│
+├── docs/
+│   ├── architecture/
+│   ├── agile/
+│   └── runbooks/
+│
+├── terraform/
+│   ├── environments/
+│   │   ├── dev/
+│   │   └── prod/
+│   │
+│   ├── modules/
+│   │   ├── resource-group/
+│   │   ├── networking/
+│   │   ├── aks/
+│   │   ├── acr/
+│   │   ├── key-vault/
+│   │   ├── storage/
+│   │   ├── database/
+│   │   └── monitoring/
+│   │
+│   └── global/
+│
+├── application/
+│   ├── frontend/
+│   ├── backend/
+│   └── database/
+│
+├── docker/
+│   ├── frontend/
+│   └── backend/
+│
+├── kubernetes/
+│   ├── base/
+│   ├── overlays/
+│   │   ├── dev/
+│   │   └── prod/
+│   └── helm/
+│       └── application/
+│
+├── pipelines/
+│   ├── ci/
+│   ├── infrastructure/
+│   └── cd/
+│
+├── security/
+│   ├── checkov/
+│   ├── trivy/
+│   ├── owasp/
+│   └── policies/
+│
+└── tests/
+    ├── terraform/
+    ├── application/
+    └── deployment/
